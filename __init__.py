@@ -111,48 +111,12 @@ class NapTimeSkill(OVOSSkill):
     # GUI integration
     def display_sleep_face(self) -> None:
         """Display the sleeping face depending on the platform."""
-        self.gui.show_page("resting", override_idle=True)
+        self.gui.show_face(awake=False, override_idle=True)
         self.set_context("sleeping_state")
 
     def display_waking_face(self) -> None:
         """Display the waking face depending on the platform."""
-        self.gui.remove_page("resting")
-        self.gui.show_page("awake", override_idle=5)
-        # TODO Screen not reverting after the specified 5 seconds.
-        # The following 2 lines shouldn't be needed. Remove when fixed.
-        time.sleep(5)
-        self.gui.release()
-
-    # TODO notifications api not yet merged
-    # merge this into ovos_workshop
-    def show_notification(self, content, action=None, noticetype="transient"):
-        """Display a Notification on homepage in the GUI.
-        Arguments:
-            content (str): Main text content of a notification, Limited
-                          to two visual lines.
-            action (str): Callback to any event registered by the skill
-                         to perform a certain action when notification is
-                         clicked.
-            noticetype (str):
-                transient: 'Default' displays a notification with a timeout.
-                sticky: displays a notification that sticks to the screen.
-        """
-        self.bus.emit(
-            Message(
-                "homescreen.notification.set",
-                data={
-                    "sender": self.skill_id,
-                    "text": content,
-                    "action": action,
-                    "type": noticetype,
-                },
-            )
-        )
-
-    def handle_speak(self, message: Message):
-        if self.sleeping:
-            utt = message.data["utterance"]
-            self.show_notification(utt)
+        self.gui.show_face(awake=True, override_idle=5)
 
     @intent_handler("naptime.intent")
     def handle_go_to_sleep(self, message: Message):

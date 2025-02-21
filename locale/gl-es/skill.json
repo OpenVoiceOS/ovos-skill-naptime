@@ -1,0 +1,17 @@
+{
+  "skill_id": "skill-ovos-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-naptime",
+  "name": "Sesta",
+  "description": "Pon o asistente a durmir cando non queres que te moleste.",
+  "examples": [
+    "Vai durmir",
+    "Hora da sesta",
+    "(Esperta|Desperta|Acorda)"
+  ],
+  "tags": [
+    "sesta",
+    "descanso",
+    "durmir",
+    "non molestar"
+  ]
+}

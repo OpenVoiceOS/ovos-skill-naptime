@@ -1,12 +1,28 @@
 # Changelog
 
-## [0.3.11a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.11a1) (2024-12-13)
+## [0.3.12a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.12a3) (2025-02-21)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.10...0.3.11a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.12a2...0.3.12a3)
 
 **Merged pull requests:**
 
-- adjusting German translation from joergz2 [\#56](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/56) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- gl/translate [\#62](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/62) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.3.12a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.12a2) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.12a1...0.3.12a2)
+
+**Merged pull requests:**
+
+- fix automations [\#60](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/60) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.3.12a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.12a1) (2024-12-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.11...0.3.12a1)
+
+**Merged pull requests:**
+
+- refactor: drop custom QML [\#58](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/58) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

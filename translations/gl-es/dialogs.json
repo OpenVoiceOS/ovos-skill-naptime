@@ -1,14 +1,14 @@
 {
-    "going.to.sleep.short.dialog": [
-        "A durmir.",
-        "Vale"
-    ],
-    "i.am.awake.dialog": [
-        "Estou esperto"
-    ],
-    "going.to.sleep.dialog": [
-        "Moi ben. Vou durmir.  Podes espertarme dicindo '{wake_word}.  esperta'.",
-        "Agora vou durmir. Di '{wake_word}. esperta' para me espertar.",
-        "Vou durmir. Di '{wake_word}. esperta' para que volva prestarche atención."
-    ]
+  "going.to.sleep.short.dialog": [
+    "Vale.",
+    "A durmir."
+  ],
+  "i.am.awake.dialog": [
+    "Estou esperto"
+  ],
+  "going.to.sleep.dialog": [
+    "Vou durmir. Di '{wake_word}, esperta' para que volva prestarche atención.",
+    "Agora vou durmir. Di '{wake_word}, esperta' para me espertares.",
+    "Moi ben, vou durmir. Podes espertarme dicindo '{wake_word}, esperta'."
+  ]
 }
