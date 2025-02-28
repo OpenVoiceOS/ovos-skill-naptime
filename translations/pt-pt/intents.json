@@ -1,35 +1,13 @@
 {
-  "naptime.intent": [
-    "vai dormir",
-    "hora da sesta",
-    "tira uma sesta",
-    "hora de ir dormir",
-    "entra no modo de suspensão",
-    "hora da soneca",
-    "começa a cochilar",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "(entra em|ativa|inicia) (o|) modo (silencioso|de silêncio|de descanso|suspensão|hibernação)",
-    "vamos dormir",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]",
-    "  [UNUSED]"
-  ]
+    "naptime.intent": [
+        "(entra em|ativa|inicia) (o|) modo (silencioso|de silêncio|de descanso|suspensão|hibernação)",
+        "começa a cochilar",
+        "entra no modo de suspensão",
+        "hora da sesta",
+        "hora da soneca",
+        "hora de ir dormir",
+        "tira uma sesta",
+        "vai dormir",
+        "vamos dormir"
+    ]
 }
