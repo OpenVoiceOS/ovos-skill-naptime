@@ -3,7 +3,7 @@ from setuptools import setup
 import os
 from os import walk, path
 
-URL = "https://github.com/OpenVoiceOS/skill-ovos-naptime"
+URL = "https://github.com/OpenVoiceOS/ovos-skill-naptime"
 SKILL_CLAZZ = "NapTimeSkill"  # needs to match __init__.py class name
 PYPI_NAME = "ovos-skill-naptime"  # pip install PYPI_NAME
 
