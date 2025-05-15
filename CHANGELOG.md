@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.3.13a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.13a1) (2025-02-24)
+## [0.3.14a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.14a1) (2025-05-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.12...0.3.13a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.13...0.3.14a1)
 
 **Merged pull requests:**
 
-- gl/translate [\#64](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/64) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fix: standardize urls / skill-id / pypi-name [\#67](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/67) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
