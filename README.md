@@ -15,7 +15,7 @@ Skill can mute the audio as well when entering into sleep mode if required.
 
 ## Configuration
 
-The skill utilizes the `~/.config/mycroft/skills/skill-ovos-naptime.openvoiceos/settings.json` file which allows you to configure this skill.
+The skill utilizes the `~/.config/mycroft/skills/ovos-skill-naptime.openvoiceos/settings.json` file which allows you to configure this skill.
 
 ```json
 {
