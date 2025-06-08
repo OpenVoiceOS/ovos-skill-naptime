@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.3.14a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.14a1) (2025-05-15)
+## [0.3.15a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.15a1) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.13...0.3.14a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.14...0.3.15a1)
 
 **Merged pull requests:**
 
-- fix: standardize urls / skill-id / pypi-name [\#67](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/67) ([JarbasAl](https://github.com/JarbasAl))
+- workshop 7.X.X [\#69](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/69) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
