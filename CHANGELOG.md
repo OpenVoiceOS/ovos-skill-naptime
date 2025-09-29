@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.3.15a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.15a1) (2025-06-08)
+## [0.3.16a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.16a1) (2025-09-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.14...0.3.15a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.15...0.3.16a1)
 
 **Merged pull requests:**
 
-- workshop 7.X.X [\#69](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/69) ([JarbasAl](https://github.com/JarbasAl))
+- Add pt-BR [\#71](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/71) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
