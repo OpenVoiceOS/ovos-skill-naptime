@@ -1,6 +1,5 @@
 {
-    "SleepCommand.voc": [
-        "v\u00e1 dormir",
-        "hora de dormir"
-    ]
+  "wakeup.voc": [
+    "acorde"
+  ]
 }
