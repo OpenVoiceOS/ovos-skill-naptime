@@ -1,14 +1,14 @@
 {
-    "going.to.sleep.short.dialog": [
-        "Vale.",
-        "Me voy a dormir."
-    ],
-    "i.am.awake.dialog": [
-        "Estoy despierto"
-    ],
-    "going.to.sleep.dialog": [
-        "Me voy a dormir.  Di '{wake_word}, despi\u00e9rtate' para llamar mi atenci\u00f3n de nuevo.",
-        "Me voy a dormir ahora.  D\u00ed '{wake_word},  despierta' para que me levante.",
-        "Bien, me voy a dormir.  Puedes despertarme diciendo '{wake_word},  despierta'."
-    ]
+  "going.to.sleep.short.dialog": [
+    "Vale.",
+    "Me voy a dormir."
+  ],
+  "i.am.awake.dialog": [
+    "Estoy despierto."
+  ],
+  "going.to.sleep.dialog": [
+    "Me voy a dormir. Di '{wake_word}, despiértate' para llamar mi atención de nuevo.",
+    "Me voy a dormir ahora. Di '{wake_word}, despierta' para que me levante.",
+    "Bien, me voy a dormir. Puedes despertarme diciendo '{wake_word}, despierta'."
+  ]
 }
