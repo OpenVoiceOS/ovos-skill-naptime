@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.16a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.16a3) (2026-03-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a2...0.3.16a3)
+
+**Merged pull requests:**
+
+- Complete French naptime locale [\#75](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/75) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.3.16a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.16a2) (2025-11-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a1...0.3.16a2)
