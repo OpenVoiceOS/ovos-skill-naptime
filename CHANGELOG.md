@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.16a4](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.16a4) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a3...0.3.16a4)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#78](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/78) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#77](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/77) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.16a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.16a3) (2026-03-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a2...0.3.16a3)
