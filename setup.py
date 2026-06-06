@@ -89,8 +89,8 @@ setup(
     include_package_data=True,
     install_requires=get_requirements("requirements.txt"),
     extras_require={
-        "test": ["ovos-adapt-parser", "ovoscope>=0.7.0"],
-        "dev": ["ovos-adapt-parser", "ovoscope>=0.7.0"],
+        "test": ["adapt-parser", "ovoscope>=0.7.0"],
+        "dev": ["adapt-parser", "ovoscope>=0.7.0"],
     },
     keywords="ovos skill plugin",
     entry_points={"ovos.plugin.skill": PLUGIN_ENTRY_POINT},

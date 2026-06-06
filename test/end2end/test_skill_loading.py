@@ -3,7 +3,7 @@ import unittest
 from ovos_plugin_manager.skills import find_skill_plugins
 from ovos_utils.messagebus import FakeBus
 
-from skill_ovos_naptime import NapTimeSkill
+from ovos_skill_naptime import NapTimeSkill
 
 
 class TestSkillLoading(unittest.TestCase):
