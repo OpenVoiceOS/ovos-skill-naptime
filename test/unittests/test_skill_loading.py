@@ -1,10 +1,10 @@
 import unittest
 from os.path import dirname
 
-from mycroft.skills.skill_loader import PluginSkillLoader, SkillLoader
 from ovos_plugin_manager.skills import find_skill_plugins
 from ovos_utils.messagebus import FakeBus
-from skill_ovos_naptime import NapTimeSkill
+from ovos_workshop.skill_launcher import PluginSkillLoader
+from ovos_skill_naptime import NapTimeSkill
 
 
 class TestSkillLoading(unittest.TestCase):
@@ -31,13 +31,6 @@ class TestSkillLoading(unittest.TestCase):
                 break
         else:
             raise RuntimeError("plugin not found")
-
-    def test_from_loader(self):
-        bus = FakeBus()
-        loader = SkillLoader(bus, self.path)
-        loader.load()
-        self.assertEqual(loader.instance.bus, bus)
-        self.assertEqual(loader.instance.root_dir, self.path)
 
     def test_from_plugin_loader(self):
         bus = FakeBus()
