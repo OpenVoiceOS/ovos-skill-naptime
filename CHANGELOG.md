@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.17a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.17a1) (2026-06-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a5...0.3.17a1)
+
+**Merged pull requests:**
+
+- fix\(deps\): allow ovos-bus-client 2.x \(widen cap to \<3.0.0\) [\#83](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/83) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.16a5](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.16a5) (2026-04-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a4...0.3.16a5)
