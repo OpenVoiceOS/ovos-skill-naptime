@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a2) (2026-07-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a1...0.4.0a2)
+
+**Merged pull requests:**
+
+- chore: add ovoscope end2end intent-routing tests [\#82](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/82) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a1) (2026-07-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.17a1...0.4.0a1)
