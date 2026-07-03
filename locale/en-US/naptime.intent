@@ -1,31 +1,7 @@
-activate sleep mode
-begin downtime
-begin naptime
-begin power nap
-begin sleep interval
-begin sleeping
-enter dreamland
-enter hibernation
-enter rest mode
-enter silent mode
-enter sleep mode
-enter slumber mode
-go to sleep
-initiate naptime
-initiate quiet time
-initiate shut-eye
-initiate siesta
-initiate siesta mode
-initiate sleep mode
-let's go to sleep
-let's have some quiet time
-let's take a nap
-nap time
-start doze-off
-start nap
-start nap period
-start sleep session
-start slumber time
-start snooze mode
-time for a nap
-time to sleep
+(let's |)go to sleep
+(let's |)(take|have) a nap
+(nap time|naptime)
+(it's |)time (for a nap|to sleep)
+(start|begin|take) a (power |)nap
+(enter|activate|start) sleep mode
+(please |)stop listening( to me|)
