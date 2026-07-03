@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a1) (2026-07-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.17a1...0.4.0a1)
+
+**Merged pull requests:**
+
+- feat: tighten en-US naptime intent definitions to spec [\#86](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/86) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.17a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.17a1) (2026-06-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.16a5...0.3.17a1)
