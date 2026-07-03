@@ -1,0 +1,6 @@
+# Suppress naptime for timer, alarm, and media requests that merely share the
+# word "sleep" with a naptime phrasing but belong to another skill, such as
+# "set a sleep timer for ten minutes" or "play some sleep music".
+timer
+alarm
+play
