@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a3) (2026-07-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a2...0.4.0a3)
+
+**Merged pull requests:**
+
+- fix: allow ovos-workshop 9.x [\#89](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/89) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a2) (2026-07-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a1...0.4.0a2)
