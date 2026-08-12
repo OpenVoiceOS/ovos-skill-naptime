@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a5](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a5) (2026-08-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a4...0.4.0a5)
+
+**Merged pull requests:**
+
+- test: add golden-utterance e2e suite for en-US [\#93](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/93) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.0a4](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a4) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a3...0.4.0a4)
