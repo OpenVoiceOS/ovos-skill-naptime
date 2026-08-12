@@ -85,15 +85,15 @@ class TestNaptimeIntentsEnUS(unittest.TestCase):
 
     def test_go_to_sleep(self):
         types = self._run("go to sleep")
-        self.assertIn(f"{SKILL_ID}:naptime.intent", types)
+        self.assertIn(f"{SKILL_ID}:naptime", types)
 
     def test_nap_time(self):
         types = self._run("nap time")
-        self.assertIn(f"{SKILL_ID}:naptime.intent", types)
+        self.assertIn(f"{SKILL_ID}:naptime", types)
 
     def test_enter_sleep_mode(self):
         types = self._run("enter sleep mode")
-        self.assertIn(f"{SKILL_ID}:naptime.intent", types)
+        self.assertIn(f"{SKILL_ID}:naptime", types)
 
 
 if __name__ == "__main__":
