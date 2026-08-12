@@ -1,7 +1,8 @@
 (let's |)go to sleep
 (let's |)(take|have) a nap
-(nap time|naptime)
+(begin |)(nap time|naptime)
 (it's |)time (for a nap|to sleep)
-(start|begin|take) a (power |)nap
+(start|begin|take) (a |)(power |)nap
 (enter|activate|start) sleep mode
+(begin|start) (downtime|sleep interval)
 (please |)stop listening( to me|)
