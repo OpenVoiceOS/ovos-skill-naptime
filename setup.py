@@ -87,6 +87,7 @@ setup(
     package_data={SKILL_PKG: find_resource_files()},
     packages=[SKILL_PKG],
     include_package_data=True,
+    python_requires=">=3.10",
     install_requires=get_requirements("requirements.txt"),
     extras_require={
         "test": [

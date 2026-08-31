@@ -19,7 +19,9 @@ LANG = "en-US"
 _SIDE_EFFECT_MESSAGES = [
     "mycroft.audio.play_sound",
     "mycroft.awoken",
+    "ovos.listener.awoken",
     "recognizer_loop:sleep",
+    "ovos.listener.sleep",
     "recognizer_loop:wake_up",
     "mycroft.volume.mute",
     "mycroft.volume.unmute",
