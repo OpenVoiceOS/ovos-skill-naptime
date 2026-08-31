@@ -127,11 +127,26 @@ def _fire(mc, text, session):
     )
     capture = CaptureSession(mc, ignore_messages=_IGNORE)
     capture.capture(utterance, timeout=30)
-    return [m.msg_type for m in capture.finish()]
+    messages = capture.finish()
+    return [m.msg_type for m in messages], _last_session(messages, session)
+
+
+def _last_session(messages, fallback):
+    # A client forwards the session it last received from the bus, not a
+    # stale local snapshot -- server-side context (eg. skill set_context)
+    # lives only on the SessionManager copy, and re-sending an older
+    # object overwrites it under last-writer-wins.
+    for m in reversed(messages):
+        if m.msg_type == "ovos.utterance.handled":
+            raw = m.context.get("session")
+            if raw:
+                return Session.deserialize(raw)
+    return fallback
 
 
 def _types(mc, text, session_id):
-    return _fire(mc, text, _session(session_id))
+    types, _ = _fire(mc, text, _session(session_id))
+    return types
 
 
 def _golden_id(row):
@@ -148,8 +163,8 @@ def test_golden_utterance(minicroft, row):
         # a successful go-to-sleep in the same session -- precondition the
         # session the same way a real user would (go to sleep, then wake up).
         session = _session(session_id)
-        _fire(minicroft, "go to sleep", session)
-        types = _fire(minicroft, row["utterance"], session)
+        _, session = _fire(minicroft, "go to sleep", session)
+        types, _ = _fire(minicroft, row["utterance"], session)
     else:
         types = _types(minicroft, row["utterance"], session_id)
     assert any(t in candidates for t in types), (

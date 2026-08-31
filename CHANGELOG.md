@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a6](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a6) (2026-08-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a5...0.4.0a6)
+
+**Merged pull requests:**
+
+- test: forward the live session between golden utterances [\#96](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/96) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.0a5](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a5) (2026-08-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a4...0.4.0a5)
