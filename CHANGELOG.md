@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.5.0a1) (2026-08-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a6...0.5.0a1)
+
+**Merged pull requests:**
+
+- feat: migrate listener-lifecycle topics to OVOS spec bus namespace [\#85](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/85) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.0a6](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.4.0a6) (2026-08-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a5...0.4.0a6)
