@@ -20,7 +20,6 @@ from ovos_spec_tools import SpecMessage
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 
 
@@ -142,7 +141,7 @@ class NapTimeSkill(OVOSSkill):
             self.disable_confirm_listening()
         self.set_context("sleeping_state")
 
-    @intent_handler(IntentBuilder("WakeUp").require("wakeup").require("sleeping_state"))
+    @intent_handler("WakeUp.intent", requires_context=["sleeping_state"])
     def handle_wakeup(self, message: Message):
         """STT is disabled, but command can be sent via cli"""
         self.started_by_skill = True
