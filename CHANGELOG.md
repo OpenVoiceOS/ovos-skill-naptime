@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.6.0a1) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.5.0a1...0.6.0a1)
+
+**Merged pull requests:**
+
+- feat: add more natural-language triggers to naptime intent [\#102](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/102) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.5.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.5.0a1) (2026-08-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.4.0a6...0.5.0a1)
