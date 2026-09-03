@@ -1,3 +1,5 @@
 ovos-utils>=0.0.38
-ovos-workshop>=0.0.15,<8.0.0
-ovos-bus-client>=1.2.0,<2.0.0
+ovos-workshop>=9.6.0a1,<10.0.0
+ovos-plugin-manager>=2.5.0a1,<3.0.0
+ovos-bus-client>=2.8.3a1,<3.0.0
+ovos-spec-tools>=1.7.0a3,<2.0.0

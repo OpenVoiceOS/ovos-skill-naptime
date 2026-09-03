@@ -16,10 +16,10 @@ import time
 
 from ovos_bus_client.message import Message
 from ovos_config import Configuration
+from ovos_spec_tools import SpecMessage
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 
 
@@ -44,11 +44,11 @@ class NapTimeSkill(OVOSSkill):
         self.started_by_skill = False
         self.sleeping = False
         self.old_brightness = 30
-        self.add_event("mycroft.awoken", self.handle_awoken)
-        self.add_event("mycroft.awoken", self.mark1_wake_up_animation)
-        self.add_event("recognizer_loop:sleep", self.mark1_sleep_animation)
-        self.add_event("mycroft.awoken", self.display_waking_face)
-        self.add_event("recognizer_loop:sleep", self.display_sleep_face)
+        self.add_event(SpecMessage.LISTENER_AWOKEN, self.handle_awoken)
+        self.add_event(SpecMessage.LISTENER_AWOKEN, self.mark1_wake_up_animation)
+        self.add_event(SpecMessage.LISTENER_SLEEP, self.mark1_sleep_animation)
+        self.add_event(SpecMessage.LISTENER_AWOKEN, self.display_waking_face)
+        self.add_event(SpecMessage.LISTENER_SLEEP, self.display_sleep_face)
         self.disabled_confirm_listening = False
 
     @property
@@ -132,7 +132,7 @@ class NapTimeSkill(OVOSSkill):
         else:
             self.speak_dialog("going.to.sleep.short", wait=True)
 
-        self.bus.emit(Message("recognizer_loop:sleep"))
+        self.bus.emit(Message(SpecMessage.LISTENER_SLEEP))
         self.sleeping = True
         self.started_by_skill = True
         if self.mute:
@@ -141,7 +141,7 @@ class NapTimeSkill(OVOSSkill):
             self.disable_confirm_listening()
         self.set_context("sleeping_state")
 
-    @intent_handler(IntentBuilder("WakeUp").require("wakeup").require("sleeping_state"))
+    @intent_handler("WakeUp.intent", requires_context=["sleeping_state"])
     def handle_wakeup(self, message: Message):
         """STT is disabled, but command can be sent via cli"""
         self.started_by_skill = True

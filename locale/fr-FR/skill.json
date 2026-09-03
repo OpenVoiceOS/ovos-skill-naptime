@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Sieste",
+  "description": "Met l'assistant en veille quand vous ne voulez pas être dérangé.",
+  "examples": [
+    "Va te coucher",
+    "C'est l'heure de la sieste",
+    "Réveille-toi"
+  ],
+  "tags": [
+    "sieste",
+    "veille",
+    "sommeil",
+    "ne-pas-déranger"
+  ]
+}
