@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.6.0a2) (2026-09-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.6.0a1...0.6.0a2)
+
+**Merged pull requests:**
+
+- refactor: migrate context-gated adapt intent to intent file [\#99](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/99) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.6.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.6.0a1) (2026-09-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.5.0a1...0.6.0a1)
