@@ -6,9 +6,9 @@ shared ovoscope golden-utterance dataset, keyed by
 (module-scoped fixture) is booted for the whole suite; every row is its own
 parametrized test item.
 
-``handle_wakeup`` is bound to ``IntentBuilder("WakeUp").require("wakeup")
-.require("sleeping_state")`` -- it only matches once the skill has set the
-``sleeping_state`` adapt context, which happens inside
+``handle_wakeup`` is a file intent (``WakeUp.intent``) declared with
+``requires_context=["sleeping_state"]`` -- it only matches once the skill
+has set the ``sleeping_state`` context, which happens inside
 ``handle_go_to_sleep``. So the "wake up" golden row is run in a session that
 has already been put to sleep in the same session_id, mirroring how the
 skill is actually used (you can't wake up a device that was never asleep).
@@ -179,3 +179,62 @@ def test_negative_confusable_not_claimed(minicroft, negative):
     types = _types(minicroft, text, f"negative-{text}")
     claimed = any(t.startswith(f"{SKILL_ID}:") for t in types)
     assert not claimed, f"{text!r} (from {source_skill}) was incorrectly claimed by {SKILL_ID}"
+
+
+_FILE_INTENT_ONLY_PIPELINE = [
+    "ovos-padatious-pipeline-plugin-high",
+    "ovos-padacioso-pipeline-plugin-high",
+    "ovos-padacioso-pipeline-plugin-medium",
+]
+
+
+def _file_intent_only_session(session_id):
+    session = _session(session_id)
+    session.pipeline = list(_FILE_INTENT_ONLY_PIPELINE)
+    return session
+
+
+@pytest.mark.timeout(60)
+def test_wakeup_requires_sleeping_state_context(minicroft):
+    """WakeUp.intent declares requires_context=["sleeping_state"] -- it must
+    be invisible to the pipelines in a fresh session that never went to
+    sleep, and must match once "go to sleep" has set that context, exactly
+    like the golden "wake up" row above."""
+    candidates = _candidates(SKILL_ID, "WakeUp.intent")
+
+    fresh_types = _types(minicroft, "wake up", "gate-fresh-wake-up")
+    claimed_fresh = any(t in candidates for t in fresh_types)
+    assert not claimed_fresh, (
+        f"'wake up' in a fresh session must NOT match WakeUp, got {fresh_types!r}"
+    )
+
+    session = _session("gate-sleep-then-wake")
+    _, session = _fire(minicroft, "go to sleep", session)
+    asleep_types, _ = _fire(minicroft, "wake up", session)
+    assert any(t in candidates for t in asleep_types), (
+        f"'wake up' after 'go to sleep' must match WakeUp, got {asleep_types!r}"
+    )
+
+
+@pytest.mark.timeout(60)
+def test_wakeup_file_intent_gate_without_adapt(minicroft):
+    """Same as ``test_wakeup_requires_sleeping_state_context`` but with the
+    adapt pipeline plugins excluded from the session -- this only passes if
+    the ``sleeping_state`` gate is enforced by the file-intent engines
+    themselves (OVOS-CONTEXT-1 requires_context pre-match), independent of
+    any adapt-side ``IntentBuilder.require()`` context check."""
+    candidates = _candidates(SKILL_ID, "WakeUp.intent")
+
+    fresh_session = _file_intent_only_session("gate-fresh-wake-up-no-adapt")
+    fresh_types, _ = _fire(minicroft, "wake up", fresh_session)
+    claimed_fresh = any(t in candidates for t in fresh_types)
+    assert not claimed_fresh, (
+        f"'wake up' in a fresh session must NOT match WakeUp, got {fresh_types!r}"
+    )
+
+    session = _file_intent_only_session("gate-sleep-then-wake-no-adapt")
+    _, session = _fire(minicroft, "go to sleep", session)
+    asleep_types, _ = _fire(minicroft, "wake up", session)
+    assert any(t in candidates for t in asleep_types), (
+        f"'wake up' after 'go to sleep' must match WakeUp, got {asleep_types!r}"
+    )
