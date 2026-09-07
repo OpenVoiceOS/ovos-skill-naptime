@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.7.0a1...0.8.0a1)
+
+**Merged pull requests:**
+
+- feat: oc-FR locale parity [\#108](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/108) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.7.0a1) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.6.1a1...0.7.0a1)
