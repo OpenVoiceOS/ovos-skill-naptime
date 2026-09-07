@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Sièsta",
+  "description": "Metètz l'assistent a dormir quand volètz pas èsser desrengat.",
+  "examples": [
+    "Vai dormir",
+    "Ora de la sièsta",
+    "Desvelha-te"
+  ],
+  "tags": [
+    "sièsta",
+    "silenci",
+    "dormir",
+    "desrenguetz-pas"
+  ]
+}
