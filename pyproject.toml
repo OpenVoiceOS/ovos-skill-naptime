@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0,<83", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-naptime"
+dynamic = ["version"]
+description = "ovos skill plugin"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "JarbasAi", email = "jarbasai@mailfence.com" },
+]
+requires-python = ">=3.10"
+keywords = ["ovos", "skill", "plugin"]
+dependencies = [
+    "ovos-utils>=0.0.38",
+    "ovos-workshop>=9.6.0a1,<10.0.0",
+    "ovos-plugin-manager>=2.5.0a1,<3.0.0",
+    "ovos-bus-client>=2.8.3a1,<3.0.0",
+    "ovos-spec-tools>=1.7.0a3,<2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-naptime"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-timeout",
+    "ovoscope>=1.0.1a1",
+    "ovos-adapt-parser>=1.0.9",
+    "ovos-padatious>=1.0.0a1",
+    "padacioso>=2.3.4a1",
+]
+
+[project.entry-points."ovos.plugin.skill"]
+"ovos-skill-naptime.openvoiceos" = "ovos_skill_naptime:NapTimeSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_naptime"]
+include-package-data = true
+
+[tool.setuptools.package-dir]
+ovos_skill_naptime = "."
+
+[tool.setuptools.dynamic]
+version = { attr = "ovos_skill_naptime.version.__version__" }
+
+[tool.setuptools.package-data]
+ovos_skill_naptime = ["locale/**", "gui/**", "*.json"]
