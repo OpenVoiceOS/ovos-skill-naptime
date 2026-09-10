@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.8.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a2) (2026-09-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a1...0.8.0a2)
+
+**Merged pull requests:**
+
+- refactor: convert to pyproject-only packaging [\#113](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/113) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+- translate\(da-DK\): add naptime.blacklist, expand wakeup vocab, remove zero-width spaces [\#111](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/111) ([andlo](https://github.com/andlo))
+
 ## [0.8.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a1) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.7.0a1...0.8.0a1)
