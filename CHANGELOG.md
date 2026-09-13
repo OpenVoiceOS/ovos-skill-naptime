@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a3) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a2...0.8.0a3)
+
+**Merged pull requests:**
+
+- locale: wakeup.voc in 5 locales \(machine translation, linguonnx\) [\#115](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/115) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.8.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a2) (2026-09-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a1...0.8.0a2)
