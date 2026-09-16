@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0a4](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a4) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a3...0.8.0a4)
+
+**Merged pull requests:**
+
+- test: assert sleep/wake bus effects in e2e naptime suite [\#112](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/112) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.8.0a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a3) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a2...0.8.0a3)
