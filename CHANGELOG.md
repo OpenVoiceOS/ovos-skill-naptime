@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.1a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.10.1a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.10.0a1...0.10.1a1)
+
+**Merged pull requests:**
+
+- fix: locale resource names per OVOS-INTENT-2 [\#118](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/118) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.10.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.10.0a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.9.0a1...0.10.0a1)
