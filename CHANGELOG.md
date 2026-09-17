@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.9.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.9.0a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a4...0.9.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): fill de-DE, es-ES, gl-ES, eu-ES and ca-ES gaps against en-US [\#121](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/121) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+- feat\(locale\): fill cs-CZ, hu-HU, pl-PL, ro-RO, ru-RU, tr-TR, el-GR and fa-IR gaps against en-US [\#120](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/120) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.8.0a4](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.8.0a4) (2026-09-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.8.0a3...0.8.0a4)
