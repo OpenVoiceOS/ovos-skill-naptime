@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Kuluska",
+  "description": "Jarri laguntzailea lo, ez zaituztenean molestatu nahi.",
+  "examples": [
+    "Joan lotara",
+    "Kuluska denbora",
+    "Esnatu"
+  ],
+  "tags": [
+    "kuluska",
+    "loaldia",
+    "lo",
+    "ez-molestatu"
+  ]
+}
