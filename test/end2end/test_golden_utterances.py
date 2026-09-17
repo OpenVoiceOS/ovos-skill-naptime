@@ -6,7 +6,7 @@ shared ovoscope golden-utterance dataset, keyed by
 (module-scoped fixture) is booted for the whole suite; every row is its own
 parametrized test item.
 
-``handle_wakeup`` is a file intent (``WakeUp.intent``) declared with
+``handle_wakeup`` is a file intent (``wake_up.intent``) declared with
 ``requires_context=["sleeping_state"]`` -- it only matches once the skill
 has set the ``sleeping_state`` context, which happens inside
 ``handle_go_to_sleep``. So the "wake up" golden row is run in a session that
@@ -79,7 +79,7 @@ def _candidates(skill_id: str, intent_label: str) -> set:
     event under different normalizations of the ``.intent`` filename
     basename -- candidates cover both the suffixed and unsuffixed forms so
     the suite isn't pinned to whichever pipeline plugin happens to be
-    installed. Adapt intent names (eg. "WakeUp") have no ``.intent``
+    installed. Adapt intent names (eg. "wake_up") have no ``.intent``
     suffix to strip."""
     base = intent_label[:-len(".intent")] if intent_label.endswith(".intent") else intent_label
     return {f"{skill_id}:{intent_label}", f"{skill_id}:{base}"}
@@ -159,7 +159,7 @@ def test_golden_utterance(minicroft, row):
     candidates = _candidates(SKILL_ID, row["intent_label"])
     session_id = f"golden-{_golden_id(row)}"
     if row["utterance"] == "wake up":
-        # WakeUp requires the "sleeping_state" adapt context, set only after
+        # wake_up requires the "sleeping_state" adapt context, set only after
         # a successful go-to-sleep in the same session -- precondition the
         # session the same way a real user would (go to sleep, then wake up).
         session = _session(session_id)
@@ -196,23 +196,23 @@ def _file_intent_only_session(session_id):
 
 @pytest.mark.timeout(60)
 def test_wakeup_requires_sleeping_state_context(minicroft):
-    """WakeUp.intent declares requires_context=["sleeping_state"] -- it must
+    """wake_up.intent declares requires_context=["sleeping_state"] -- it must
     be invisible to the pipelines in a fresh session that never went to
     sleep, and must match once "go to sleep" has set that context, exactly
     like the golden "wake up" row above."""
-    candidates = _candidates(SKILL_ID, "WakeUp.intent")
+    candidates = _candidates(SKILL_ID, "wake_up.intent")
 
     fresh_types = _types(minicroft, "wake up", "gate-fresh-wake-up")
     claimed_fresh = any(t in candidates for t in fresh_types)
     assert not claimed_fresh, (
-        f"'wake up' in a fresh session must NOT match WakeUp, got {fresh_types!r}"
+        f"'wake up' in a fresh session must NOT match wake_up, got {fresh_types!r}"
     )
 
     session = _session("gate-sleep-then-wake")
     _, session = _fire(minicroft, "go to sleep", session)
     asleep_types, _ = _fire(minicroft, "wake up", session)
     assert any(t in candidates for t in asleep_types), (
-        f"'wake up' after 'go to sleep' must match WakeUp, got {asleep_types!r}"
+        f"'wake up' after 'go to sleep' must match wake_up, got {asleep_types!r}"
     )
 
 
@@ -223,18 +223,18 @@ def test_wakeup_file_intent_gate_without_adapt(minicroft):
     the ``sleeping_state`` gate is enforced by the file-intent engines
     themselves (OVOS-CONTEXT-1 requires_context pre-match), independent of
     any adapt-side ``IntentBuilder.require()`` context check."""
-    candidates = _candidates(SKILL_ID, "WakeUp.intent")
+    candidates = _candidates(SKILL_ID, "wake_up.intent")
 
     fresh_session = _file_intent_only_session("gate-fresh-wake-up-no-adapt")
     fresh_types, _ = _fire(minicroft, "wake up", fresh_session)
     claimed_fresh = any(t in candidates for t in fresh_types)
     assert not claimed_fresh, (
-        f"'wake up' in a fresh session must NOT match WakeUp, got {fresh_types!r}"
+        f"'wake up' in a fresh session must NOT match wake_up, got {fresh_types!r}"
     )
 
     session = _file_intent_only_session("gate-sleep-then-wake-no-adapt")
     _, session = _fire(minicroft, "go to sleep", session)
     asleep_types, _ = _fire(minicroft, "wake up", session)
     assert any(t in candidates for t in asleep_types), (
-        f"'wake up' after 'go to sleep' must match WakeUp, got {asleep_types!r}"
+        f"'wake up' after 'go to sleep' must match wake_up, got {asleep_types!r}"
     )

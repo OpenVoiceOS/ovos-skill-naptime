@@ -127,10 +127,10 @@ class NapTimeSkill(OVOSSkill):
         """
         if self.wake_word:
             self.speak_dialog(
-                "going.to.sleep", {"wake_word": self.wake_word}, wait=True
+                "going_to_sleep", {"wake_word": self.wake_word}, wait=True
             )
         else:
-            self.speak_dialog("going.to.sleep.short", wait=True)
+            self.speak_dialog("going_to_sleep_short", wait=True)
 
         self.bus.emit(Message(SpecMessage.LISTENER_SLEEP))
         self.sleeping = True
@@ -141,7 +141,7 @@ class NapTimeSkill(OVOSSkill):
             self.disable_confirm_listening()
         self.set_context("sleeping_state")
 
-    @intent_handler("WakeUp.intent", requires_context=["sleeping_state"])
+    @intent_handler("wake_up.intent", requires_context=["sleeping_state"])
     def handle_wakeup(self, message: Message):
         """STT is disabled, but command can be sent via cli"""
         self.started_by_skill = True
@@ -158,7 +158,7 @@ class NapTimeSkill(OVOSSkill):
         self.awaken()
         if started_by_skill:
             # Announce that the unit is awake
-            self.speak_dialog("i.am.awake", wait=True)
+            self.speak_dialog("i_am_awake", wait=True)
 
     def awaken(self):
         if self.mute:

@@ -88,7 +88,7 @@ class TestNaptimeEffects(unittest.TestCase):
         # server-side context (eg. skill set_context) lives only on the
         # SessionManager copy; forward the session the server last handed
         # back, not a stale local snapshot, or the sleeping_state context
-        # required by WakeUp.intent never survives to the next utterance.
+        # required by wake_up.intent never survives to the next utterance.
         for m in reversed(messages):
             if m.msg_type == "ovos.utterance.handled":
                 raw = m.context.get("session")
@@ -101,7 +101,7 @@ class TestNaptimeEffects(unittest.TestCase):
         naptime intent handler. That is satisfied by a handler that routes,
         speaks nothing, and never puts the listener to sleep. Assert the
         actual bus effect: the listener-sleep message by type, and a spoken
-        confirmation whose text is one of the skill's own going.to.sleep
+        confirmation whose text is one of the skill's own going_to_sleep
         dialog renderings with the wake word substituted in."""
         session = self._session("effects-go-to-sleep")
         messages = self._fire("go to sleep", session)
@@ -122,13 +122,13 @@ class TestNaptimeEffects(unittest.TestCase):
         # accept either the wake-word variant (any wake word string) or the
         # short fallback: the assertion is on the FIELD (data["utterance"])
         # carrying rendered dialog text, not on presence of a message.
-        going_to_sleep_templates = _dialog_templates("going.to.sleep.dialog")
-        going_to_sleep_short_templates = _dialog_templates("going.to.sleep.short.dialog")
+        going_to_sleep_templates = _dialog_templates("going_to_sleep.dialog")
+        going_to_sleep_short_templates = _dialog_templates("going_to_sleep_short.dialog")
         matches_long_form = any(_template_matches(t, spoken) for t in going_to_sleep_templates)
         matches_short_form = any(_template_matches(t, spoken) for t in going_to_sleep_short_templates)
         self.assertTrue(
             matches_long_form or matches_short_form,
-            f"spoken confirmation {spoken!r} does not match any going.to.sleep(.short) dialog template",
+            f"spoken confirmation {spoken!r} does not match any going_to_sleep(_short) dialog template",
         )
 
     def test_wake_up_after_sleep_forwards_wake_message(self):
