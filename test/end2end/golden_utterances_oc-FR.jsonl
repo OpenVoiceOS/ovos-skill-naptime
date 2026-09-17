@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "anem dormir", "lang": "oc-FR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "dintra en mòde adormit", "lang": "oc-FR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vai en ibernacion", "lang": "oc-FR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "desvelha-te", "lang": "oc-FR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "revelha-te", "lang": "oc-FR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "quita de dormir", "lang": "oc-FR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
