@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.0a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.10.1a1...0.11.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): fill naptime.blacklist for nl-NL, pt-BR and pt-PT against en-US [\#126](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/126) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.10.1a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.10.1a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.10.0a1...0.10.1a1)
