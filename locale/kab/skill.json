@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Akud n ṭṭes",
+  "description": "Sers amɛiwen ɣer ṭṭes ticki ur tebɣiḍ ara ad k-yeqleq.",
+  "examples": [
+    "Ruḥ ad ṭṭseɣ",
+    "Akud n ṭṭes",
+    "Ekker"
+  ],
+  "tags": [
+    "ṭṭes",
+    "akud-n-ṭṭes",
+    "ur-sɛiwed-ara"
+  ]
+}

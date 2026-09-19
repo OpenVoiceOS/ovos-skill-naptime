@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Υπνάκος",
+  "description": "Βάζει τον βοηθό για ύπνο όταν δεν θέλεις να σε ενοχλούν.",
+  "examples": [
+    "Πήγαινε για ύπνο",
+    "Ώρα για υπνάκο",
+    "Ξύπνα"
+  ],
+  "tags": [
+    "υπνάκος",
+    "ύπνος",
+    "μην-ενοχλείτε"
+  ]
+}

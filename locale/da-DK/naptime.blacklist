@@ -1,0 +1,6 @@
+# Undertrykker naptime for timer-, alarm- og medieforespørgsler der blot
+# deler ordet "sove" med en naptime-formulering, men hører til et andet
+# skill, fx "sæt en søvntimer på ti minutter" eller "afspil noget sovemusik".
+timer
+alarm
+afspil

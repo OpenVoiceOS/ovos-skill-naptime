@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Şekerleme",
+  "description": "Rahatsız edilmek istemediğinde asistanı uyutur.",
+  "examples": [
+    "Uyumaya git",
+    "Şekerleme zamanı",
+    "Uyan"
+  ],
+  "tags": [
+    "şekerleme",
+    "uyku",
+    "rahatsız-etme"
+  ]
+}

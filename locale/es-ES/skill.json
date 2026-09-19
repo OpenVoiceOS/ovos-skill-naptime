@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Hora de la siesta",
+  "description": "Pon el asistente a dormir cuando no quieras que te molesten.",
+  "examples": [
+    "A dormir",
+    "Hora de la siesta",
+    "Despierta"
+  ],
+  "tags": [
+    "siesta",
+    "hora de la siesta",
+    "dormir",
+    "no-molestar"
+  ]
+}
