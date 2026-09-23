@@ -86,11 +86,7 @@ def test_every_spoken_dialog_resolves_in_the_locale(lang):
 #: Locales whose file hard-codes a value the code passes as a slot. Each
 #: is a translation defect a native speaker fixes; the row goes when the
 #: file does, and a fixed file fails here (strict) until the row is gone.
-KNOWN_SLOT_HOLES = {
-    "hu-HU": "going_to_sleep.dialog says 'Hey Mycroft' instead of {wake_word}",
-    "sv-SE": "going_to_sleep.dialog says 'Hey Mycroft' instead of {wake_word}",
-    "tr-TR": "going_to_sleep.dialog says 'Hey Mycroft' instead of {wake_word}",
-}
+KNOWN_SLOT_HOLES = {}
 
 
 @pytest.mark.parametrize("lang", [
