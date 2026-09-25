@@ -12,4 +12,8 @@ jobs:
     with:
       python_versions: '["3.10", "3.11", "3.12", "3.13", "3.14"]'
       install_extras: 'test'
-      test_path: 'test/end2end/test_plugin.py'
+      # test/unittests holds 73 cases that no workflow ran: the intent
+      # suites for six languages, the listener topics and the dialog
+      # resolution. Naming the directory, not a file list, so a new
+      # file cannot be left out by omission.
+      test_path: 'test/end2end/test_plugin.py test/unittests'

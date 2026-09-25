@@ -16,7 +16,7 @@ import time
 
 from ovos_bus_client.message import Message
 from ovos_config import Configuration
-from ovos_spec_tools import SpecMessage
+from ovos_spec_tools import SpecMessage, standardize_lang
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.decorators import intent_handler
@@ -77,12 +77,22 @@ class NapTimeSkill(OVOSSkill):
                 candidates[ww_name] = ww_conf
 
         if candidates:
-            # preference to main language
+            # preference to main language. The shipped entries carry `None`
+            # or a lowercase tag such as "en-us", while `self.lang` is
+            # "en-US", so an exact compare never matched and the language
+            # preference was dead. Both sides go through the fleet's
+            # normaliser; an entry with no `lang` keeps the empty string,
+            # which `standardize_lang` refuses to take as None.
+            wanted = standardize_lang(self.lang)
             for ww_name, ww_conf in candidates.items():
-                if ww_conf.get("lang", "") == self.lang:
+                if standardize_lang(ww_conf.get("lang") or "") == wanted:
                     return ww_name
-            # assume ordered by preference in config
-            return candidates[0]
+            # assume ordered by preference in config. `candidates` is a dict
+            # keyed by wake-word name, so `candidates[0]` asked for a key
+            # named 0 and raised KeyError on every box whose
+            # `listener.wake_word` is not a hotwords key while other
+            # hotwords still listen.
+            return next(iter(candidates))
         return default
 
     # TODO move mark1 handlers to PHAL mk1 plugin
