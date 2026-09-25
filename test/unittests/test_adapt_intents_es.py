@@ -87,7 +87,7 @@ def collect_test_utterances(intent, kws):
 class TestAdapt(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        lang = "es-es"
+        lang = "es-ES"
         engine = IntentDeterminationEngine()
         res_folder = join(dirname(dirname(dirname(__file__))), "locale", lang)
         skill = join(dirname(dirname(dirname(__file__))), "__init__.py")

@@ -2,6 +2,7 @@
 import unittest
 from os.path import join, dirname
 import os
+import tempfile
 from ovos_utils.bracket_expansion import expand_parentheses, expand_options
 
 
@@ -18,7 +19,7 @@ class TestPadaos(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         from ovos_padatious.padaos import IntentContainer
-        res_folder = join(dirname(dirname(dirname(__file__))), "locale", "en-us")
+        res_folder = join(dirname(dirname(dirname(__file__))), "locale", "en-US")
         engine = IntentContainer()
         for root, folders, files in os.walk(res_folder):
             for f in files:
@@ -27,6 +28,11 @@ class TestPadaos(unittest.TestCase):
                     engine.add_intent(f.replace(".intent", ""), samples)
                 if f.endswith(".entity"):
                     engine.add_entity(f.replace(".entity", ""), samples)
+        # padaos compiles in a background worker, and calc_intents never
+        # compiles on the match path: an uncompiled container answers None
+        # for every query. Compile here, or the loop below asserts against
+        # an empty regex table and passes whatever the locale holds.
+        engine.compile()
         self.engine = engine
         self.res_folder = res_folder
 
@@ -45,8 +51,14 @@ class TestPadatious(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         from ovos_padatious import IntentContainer
-        res_folder = join(dirname(dirname(dirname(__file__))), "locale", "en-us")
-        engine = IntentContainer(cache_dir="/tmp/padatious_cache")
+        res_folder = join(dirname(dirname(dirname(__file__))), "locale", "en-US")
+        # A per-class temporary directory, not a fixed /tmp path. All six
+        # locale files named the same one, and every locale writes the same
+        # naptime.* cache keys into it, so the last locale to train won and
+        # stale state survived between runs as well as between locales.
+        cache = tempfile.TemporaryDirectory(prefix="naptime-padatious-")
+        self.addClassCleanup(cache.cleanup)
+        engine = IntentContainer(cache_dir=cache.name)
         for root, folders, files in os.walk(res_folder):
             for f in files:
                 samples = read_samples(join(root, f))
@@ -106,8 +118,17 @@ class TestPadacioso(unittest.TestCase):
             match = self.engine.calc_intent(utterance)
             self.assertEqual(match.get("name"), "naptime", utterance)
 
-    def test_wake_words_not_claimed(self):
+    def test_wake_words_not_claimed_by_naptime(self):
+        # #102 widened naptime.intent and added this guard so the new lines
+        # could not swallow the wake words. At that commit the words lived in
+        # wakeup.voc, a vocabulary this loader does not read, so "claimed by
+        # nothing" and "not claimed by naptime" were the same assertion.
+        # #118 turned that file into wake_up.intent per OVOS-INTENT-2, which
+        # changed the resource's role: an intent now claims the words, by
+        # design. The guard is restated to say what it always meant, and it
+        # is stronger than the original because it names the winner.
         for utterance in ("wake", "wake up"):
             match = self.engine.calc_intent(utterance)
-            self.assertIsNone(match.get("name"), utterance)
+            self.assertNotEqual(match.get("name"), "naptime", utterance)
+            self.assertEqual(match.get("name"), "wake_up", utterance)
 
