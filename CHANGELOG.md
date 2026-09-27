@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.3a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.3a1) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.2a1...0.11.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): nl-NL and pt-PT store examples and tags in skill.json [\#135](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/135) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.11.2a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.2a1) (2026-09-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.1a2...0.11.2a1)
