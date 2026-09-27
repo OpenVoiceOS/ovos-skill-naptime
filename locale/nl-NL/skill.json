@@ -2,5 +2,16 @@
   "skill_id": "ovos-skill-naptime.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
   "name": "Naptijd",
-  "description": "Laat de assistent slapen als je niet gestoord wilt worden."
+  "description": "Laat de assistent slapen als je niet gestoord wilt worden.",
+  "examples": [
+    "ga slapen",
+    "laten we een dutje doen",
+    "word wakker"
+  ],
+  "tags": [
+    "dutje",
+    "slaapmodus",
+    "slapen",
+    "niet storen"
+  ]
 }
