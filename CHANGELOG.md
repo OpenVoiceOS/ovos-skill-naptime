@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.2a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.2a1) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.1a2...0.11.2a1)
+
+**Merged pull requests:**
+
+- fix\(tr-TR\): the quote marks in going\_to\_sleep line 3 [\#138](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/138) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.11.1a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.1a2) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.1a1...0.11.1a2)
