@@ -5,7 +5,7 @@
   "description": "Coloque o assistente para dormir quando você não quiser ser incomodado.",
   "examples": [
     "Vá dormir",
-    "[Hora da] soneca",
+    "Hora da soneca",
     "Acorde"
   ],
   "tags": [

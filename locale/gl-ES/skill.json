@@ -4,9 +4,9 @@
   "name": "Sesta",
   "description": "Pon o asistente a durmir cando non queiras que te moleste.",
   "examples": [
-    "Vai durmir",
+    "Imos durmir",
     "Hora da sesta",
-    "(Esperta|Desperta|Acorda)"
+    "Esperta"
   ],
   "tags": [
     "sesta",

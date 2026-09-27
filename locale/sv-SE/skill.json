@@ -4,8 +4,8 @@
   "name": "Naptime",
   "description": "Sätter assistenten att sova när du inte vill bli störd.",
   "examples": [
-    "Gå och sov",
-    "Dags att sova",
+    "Gå och lägg dig",
+    "Det är dags att sova",
     "Vakna"
   ],
   "tags": [
