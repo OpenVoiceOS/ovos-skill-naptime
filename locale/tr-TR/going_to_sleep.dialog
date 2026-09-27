@@ -1,3 +1,12 @@
+# Line 3 had three quote marks, so one phrase was left unclosed and the wake
+# phrase was unquoted: Bana 'ayağa kalk' {wake_word}, uyan ' de.
+# It is repaired to the pattern lines 1 and 2 already use, '{wake_word}, uyan',
+# with a comma between the two quoted phrases. Every word of the original line
+# is kept, including 'ayağa kalk'.
+# Unvouched: tr-TR has no reviewer of record. Two questions are for a Turkish
+# speaker and are not decided here: whether 'ayağa kalk' belongs in this line
+# at all, and whether the two phrases are one phrase, 'ayağa kalk {wake_word},
+# uyan', rather than two.
 Tamam, uyuyacağım. '{wake_word}, uyan' diyerek beni uyandırabilirsiniz.
 Uyuyacağım. Yine dikkatimi çekmek için '{wake_word}, uyan' de.
-Şimdi uyuyacağım. Bana 'ayağa kalk' {wake_word}, uyan ' de.
+Şimdi uyuyacağım. Bana 'ayağa kalk', '{wake_word}, uyan' de.
