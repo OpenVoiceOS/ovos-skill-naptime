@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a1...0.12.0a2)
+
+**Merged pull requests:**
+
+- test: golden utterances for every locale [\#125](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/125) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.12.0a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a1) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.4a2...0.12.0a1)
@@ -453,10 +461,6 @@
 ## [0.3.7a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.7a1) (2024-11-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.6a1...0.3.7a1)
-
-**Merged pull requests:**
-
-- fix: emit bus message for listener [\#42](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/42) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.3.6a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.6a1) (2024-11-15)
 
