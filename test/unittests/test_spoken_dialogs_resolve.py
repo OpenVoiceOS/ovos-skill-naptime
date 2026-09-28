@@ -16,10 +16,13 @@ test, not of the skill.
 For each spoken name and each locale directory that ships any
 ``.dialog`` file, ``<name>.dialog`` must exist (at the locale root or
 under ``dialog/``, both layouts the resource loader reads). Every slot
-the en-US file renders must be in every other locale's file too, or that
-locale speaks a sentence with the value missing. A key the code passes
-that en-US itself never renders is not a locale defect and is not
-checked here; it is dead data at the call site.
+the en-US file renders must be on EVERY non-comment line of every other
+locale's file, or that locale speaks a sentence with the value missing.
+Every line, not merely one of them: ``speak_dialog`` picks a line at
+random, so a file carrying the slot on one line of three speaks the
+hard-coded value two times in three. A key the code passes that en-US
+itself never renders is not a locale defect and is not checked here; it
+is dead data at the call site.
 """
 import ast
 import re
@@ -101,8 +104,16 @@ def test_every_slot_the_reference_renders_is_in_the_locale_file(lang):
             continue
         rendered = {s for s in slots if f"{{{s}}}" in reference.read_text(encoding="utf-8")}
         lines = [l for l in path.read_text(encoding="utf-8").splitlines()
-                 if l.strip() and not l.startswith("#")]
+                 if l.strip() and not l.strip().startswith("#")]
         for slot in sorted(rendered):
-            if not any(f"{{{slot}}}" in l for l in lines):
-                holes.append(f"{name}.dialog lacks {{{slot}}}")
+            # EVERY line must carry the slot, not merely one of them.
+            # `speak_dialog` picks a line at random, so a file that renders the
+            # slot on one line of three speaks the hard-coded value two times in
+            # three. `any()` here passed that file, which let two thirds of the
+            # defect this test exists to catch ship green.
+            without = [l for l in lines if f"{{{slot}}}" not in l]
+            if without:
+                holes.append(
+                    f"{name}.dialog: {len(without)} of {len(lines)} lines lack "
+                    f"{{{slot}}}")
     assert not holes, f"{lang}: {holes}"
