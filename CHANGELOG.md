@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.4a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.4a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.4a1...0.11.4a2)
+
+**Merged pull requests:**
+
+- test: the slot must be on every dialog line, not merely one of them [\#133](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/133) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.11.4a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.11.4a1) (2026-09-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.11.3a1...0.11.4a1)
@@ -462,10 +470,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.4...0.3.5a1)
 
-**Merged pull requests:**
-
-- fix: deprecation log spam [\#38](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/38) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.3.4](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.4) (2024-11-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.4a3...0.3.4)
@@ -477,10 +481,6 @@
 ## [0.3.4a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.4a2) (2024-11-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.4a1...0.3.4a2)
-
-**Merged pull requests:**
-
-- fix; skilljson [\#37](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/37) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.3.4a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.4a1) (2024-11-05)
 
