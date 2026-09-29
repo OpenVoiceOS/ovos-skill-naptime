@@ -106,8 +106,23 @@ class TestPadacioso(unittest.TestCase):
             match = self.engine.calc_intent(utterance)
             self.assertEqual(match.get("name"), "naptime", utterance)
 
-    def test_wake_words_not_claimed(self):
+    def test_wake_phrases_belong_to_wake_up(self):
+        # These phrases DO match wake_up at the engine level, and must: they
+        # are wake_up.intent's own lines. What stops naptime answering "wake"
+        # while the device is awake is not the engine, it is the gate --
+        # handle_wakeup declares requires_context=["sleeping_state"], set only
+        # by handle_sleep. A bare padacioso container built from the locale
+        # files cannot model that gate, so asserting "no intent claims these"
+        # here asserts something false about the engine.
+        #
+        # The real behaviour is covered on a booted MiniCroft in
+        # test/end2end/test_wakeup_context_gate.py, which checks both arms in
+        # two pipelines: "wake up" in a fresh session must NOT match wake_up,
+        # and must match after "go to sleep".
+        #
+        # This row is kept as a locale guard: if the lines ever leave
+        # wake_up.intent, the context-gated handler becomes unreachable.
         for utterance in ("wake", "wake up"):
             match = self.engine.calc_intent(utterance)
-            self.assertIsNone(match.get("name"), utterance)
+            self.assertEqual(match.get("name"), "wake_up", utterance)
 
