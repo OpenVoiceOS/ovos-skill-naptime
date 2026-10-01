@@ -31,12 +31,17 @@ than the bus -- "mycroft.skills.trained" is a private readiness signal and
 not a spec topic. The padacioso tiers below it serve a locale padatious
 declines.
 
-A row with "needs_manual": true is loaded but not executed. It records a
-line the repository ships that the skill cannot answer today, so the file
-keeps the evidence without the suite going red for a defect filed elsewhere.
-The ru-RU "включи режим сна" row is the example: it is a real line of
-locale/ru-RU/naptime.intent, and locale/ru-RU/naptime.blacklist suppresses it
-because the line begins with a blacklisted word. Filed as T-5612.
+The locale list is built from the golden_utterances_<lang>.jsonl files on
+disk, so a locale file added to this directory runs without an edit here.
+
+A machine-generated row runs whatever its "needs_manual" flag says: there the
+flag means no native speaker vouched for the sentence, not that the skill
+cannot answer it. A human-written row with "needs_manual": true is loaded but
+not executed. It records a line the repository ships that the skill cannot
+answer today, so the file keeps the evidence without the suite going red for a
+defect filed elsewhere. The ru-RU "включи режим сна" row is the example: it is
+a real line of locale/ru-RU/naptime.intent, and locale/ru-RU/naptime.blacklist
+suppresses it because the line begins with a blacklisted word. Filed as T-5612.
 """
 import json
 from pathlib import Path
@@ -57,11 +62,10 @@ PIPELINE = [
 
 END2END_DIR = Path(__file__).parent
 
-LANGS = [
-    "ca-ES", "cs-CZ", "da-DK", "de-DE", "el-GR", "en-US", "es-ES", "eu-ES",
-    "fa-IR", "fr-FR", "gl-ES", "hu-HU", "it-IT", "kab", "nl-NL", "oc-FR",
-    "pl-PL", "pt-BR", "pt-PT", "ro-RO", "ru-RU", "sv-SE", "tr-TR",
-]
+LANGS = sorted(
+    p.stem[len("golden_utterances_"):]
+    for p in END2END_DIR.glob("golden_utterances_*.jsonl")
+)
 
 # the first naptime.intent golden row loaded for that locale is used as the
 # "go to sleep" precondition for its wake_up.intent rows.
@@ -88,7 +92,7 @@ def _load_rows(lang):
             if not line:
                 continue
             row = json.loads(line)
-            if row.get("needs_manual"):
+            if row.get("needs_manual") and not row.get("machine_generated"):
                 continue
             rows.append(row)
             if row["intent_label"] == "naptime.intent" and lang not in _SLEEP_UTTERANCE:
@@ -214,6 +218,13 @@ def test_cross_language_negative(negative):
     types, _ = _fire(mc, text, lang, _session(lang, f"negative-{lang}-{text}"))
     claimed = any(t.startswith(f"{SKILL_ID}:") for t in types)
     assert not claimed, f"[{lang}] {text!r} was incorrectly claimed by {SKILL_ID}"
+
+
+def test_every_shipping_locale_has_a_golden_file():
+    golden = {p.stem.split("_", 2)[2] for p in END2END_DIR.glob("golden_utterances_*.jsonl")}
+    locale_root = END2END_DIR.parents[1] / "locale"
+    shipping = {d.name for d in locale_root.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"
 
 
 def test_the_module_leaves_the_process_on_its_default_language():

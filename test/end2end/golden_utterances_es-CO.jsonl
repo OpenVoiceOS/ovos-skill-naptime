@@ -1,0 +1,5 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "Es hora de dormir", "lang": "es-CO", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "inicia la siesta", "lang": "es-CO", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ve a dormir", "lang": "es-CO", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "despierta", "lang": "es-CO", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "despiértate", "lang": "es-CO", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
