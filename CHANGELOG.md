@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.0a6](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a6) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a5...0.12.0a6)
+
+**Merged pull requests:**
+
+- translate\(kab-DZ\): update going.to.sleep.short.dialog [\#150](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/150) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.12.0a5](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a5) (2026-10-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a4...0.12.0a5)
@@ -438,15 +446,10 @@
 
 - import basque translations [\#52](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/52) ([JarbasAl](https://github.com/JarbasAl))
 - import galician translations [\#51](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/51) ([JarbasAl](https://github.com/JarbasAl))
-- de-de/translate [\#50](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/50) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.3.9a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.9a1) (2024-11-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.9a2...0.3.9a1)
-
-**Merged pull requests:**
-
-- Release 0.3.9a1 [\#49](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/49) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.3.9a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.9a2) (2024-11-25)
 
