@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.0a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a3) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a2...0.12.0a3)
+
+**Merged pull requests:**
+
+- test: golden utterances for every intent in every shipped locale [\#147](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/147) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.12.0a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a2) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a1...0.12.0a2)
@@ -446,17 +454,9 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.7...0.3.8a1)
 
-**Merged pull requests:**
-
-- fix:requirements.txt [\#44](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/44) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.3.7](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.7) (2024-11-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.7a1...0.3.7)
-
-**Merged pull requests:**
-
-- Release 0.3.7a1 [\#43](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/43) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.3.7a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.7a1) (2024-11-15)
 
