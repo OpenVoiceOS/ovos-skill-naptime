@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.0a5](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a5) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a4...0.12.0a5)
+
+**Merged pull requests:**
+
+- translate\(kab-DZ\): update wakeup.voc [\#151](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/151) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.12.0a4](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.0a4) (2026-10-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a3...0.12.0a4)
@@ -443,11 +451,6 @@
 ## [0.3.9a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.9a2) (2024-11-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.8...0.3.9a2)
-
-**Merged pull requests:**
-
-- da-dk/translate [\#48](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/48) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Add Catalan translation [\#47](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/47) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.3.8](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.8) (2024-11-19)
 
