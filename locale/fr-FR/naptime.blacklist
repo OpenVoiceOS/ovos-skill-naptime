@@ -1,0 +1,7 @@
+# Empêche naptime de répondre aux demandes de minuteur, d'alarme ou de média
+# qui partagent seulement le mot "dormir" avec une formulation de naptime
+# mais appartiennent à un autre skill, comme "mets un minuteur de sommeil de
+# dix minutes" ou "joue de la musique pour dormir".
+minuteur
+alarme
+joue

@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "aktibatu lo-modua", "lang": "eu-ES", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hasi siesta suspergarria", "lang": "eu-ES", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "siestarako denbora", "lang": "eu-ES", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "esnatu", "lang": "eu-ES", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hasi entzuten", "lang": "eu-ES", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "utzi lo egiteari", "lang": "eu-ES", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
