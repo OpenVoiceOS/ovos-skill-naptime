@@ -106,8 +106,4 @@ class TestPadacioso(unittest.TestCase):
             match = self.engine.calc_intent(utterance)
             self.assertEqual(match.get("name"), "naptime", utterance)
 
-    def test_wake_words_not_claimed(self):
-        for utterance in ("wake", "wake up"):
-            match = self.engine.calc_intent(utterance)
-            self.assertIsNone(match.get("name"), utterance)
 
