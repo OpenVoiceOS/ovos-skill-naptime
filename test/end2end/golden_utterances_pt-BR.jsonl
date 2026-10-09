@@ -1,5 +1,12 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "Vá dormir", "lang": "pt-BR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hora da soneca", "lang": "pt-BR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vamos tirar uma soneca", "lang": "pt-BR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "acorde", "lang": "pt-BR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "acorda", "lang": "pt-BR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vá dormir agora", "lang": "pt-BR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "Vá dormir"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "chegou a hora da soneca", "lang": "pt-BR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "hora da soneca"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "bora tirar uma soneca", "lang": "pt-BR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "vamos tirar uma soneca"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "acorde, por favor", "lang": "pt-BR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "acorde"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "acorda logo", "lang": "pt-BR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "acorda"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vai dormir um pouco", "lang": "pt-BR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "tira um cochilo", "lang": "pt-BR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "pode ir dormir agora", "lang": "pt-BR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "acorda aí", "lang": "pt-BR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "pode acordar agora", "lang": "pt-BR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "volta a me ouvir", "lang": "pt-BR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hora de acordar", "lang": "pt-BR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

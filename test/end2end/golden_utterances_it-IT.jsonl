@@ -1,6 +1,13 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "andiamo a dormire", "lang": "it-IT", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "inizia il pisolino", "lang": "it-IT", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "è ora di fare un pisolino", "lang": "it-IT", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "svegliati", "lang": "it-IT", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "inizia ad ascoltare", "lang": "it-IT", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "smetti di dormire", "lang": "it-IT", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "dai, andiamo a dormire", "lang": "it-IT", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "andiamo a dormire"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "comincia il pisolino", "lang": "it-IT", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "inizia il pisolino"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "adesso è ora di fare un pisolino", "lang": "it-IT", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "è ora di fare un pisolino"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "svegliati, per favore", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "svegliati"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "inizia di nuovo ad ascoltare", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "inizia ad ascoltare"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "smetti di dormire adesso", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "smetti di dormire"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vai a fare un pisolino", "lang": "it-IT", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "puoi andare a dormire adesso", "lang": "it-IT", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "mettiti in modalità riposo", "lang": "it-IT", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "svegliati adesso", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "dai, sveglia", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ricomincia ad ascoltarmi", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "è ora di svegliarsi", "lang": "it-IT", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
