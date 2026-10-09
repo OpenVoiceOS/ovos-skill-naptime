@@ -1,5 +1,12 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "Es hora de dormir", "lang": "es-CO", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "inicia la siesta", "lang": "es-CO", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ve a dormir", "lang": "es-CO", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "despierta", "lang": "es-CO", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "despiértate", "lang": "es-CO", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ya es hora de dormir", "lang": "es-CO", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "Es hora de dormir"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "comienza tu siesta ya", "lang": "es-CO", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "inicia la siesta"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ve a dormir ya", "lang": "es-CO", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ve a dormir"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "despierta, por favor", "lang": "es-CO", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "despierta"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "oye, despiértate ya", "lang": "es-CO", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "despiértate"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ve a dormir un rato", "lang": "es-CO", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "échate una siesta", "lang": "es-CO", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ya te puedes ir a dormir", "lang": "es-CO", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "despiértate ya", "lang": "es-CO", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "oye, despierta", "lang": "es-CO", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vuelve a escucharme", "lang": "es-CO", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ya es hora de despertar", "lang": "es-CO", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

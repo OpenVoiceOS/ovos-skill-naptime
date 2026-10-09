@@ -1,6 +1,12 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "πήγαινε για ύπνο", "lang": "el-GR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ενεργοποίησε τη λειτουργία ύπνου", "lang": "el-GR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "μπες σε λειτουργία ηρεμίας", "lang": "el-GR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ξύπνα", "lang": "el-GR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ξεκίνα να ακούς", "lang": "el-GR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "σταμάτα να κοιμάσαι", "lang": "el-GR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "πήγαινε τώρα για ύπνο", "lang": "el-GR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "πήγαινε για ύπνο"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "βάλε τη λειτουργία ύπνου", "lang": "el-GR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ενεργοποίησε τη λειτουργία ύπνου"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "πέρασε σε λειτουργία ηρεμίας", "lang": "el-GR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "μπες σε λειτουργία ηρεμίας"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ξύπνα σε παρακαλώ", "lang": "el-GR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ξύπνα"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ξεκίνα πάλι να ακούς", "lang": "el-GR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ξεκίνα να ακούς"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "σταμάτα πια να κοιμάσαι", "lang": "el-GR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "σταμάτα να κοιμάσαι"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "πήγαινε να κοιμηθείς", "lang": "el-GR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "πάρε έναν υπνάκο", "lang": "el-GR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "μπες σε κατάσταση ύπνου", "lang": "el-GR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ξύπνα τώρα", "lang": "el-GR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "άκουσέ με ξανά", "lang": "el-GR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ώρα να ξυπνήσεις", "lang": "el-GR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

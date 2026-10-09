@@ -28,9 +28,9 @@ Homepage = "https://github.com/OpenVoiceOS/ovos-skill-naptime"
 test = [
     "pytest",
     "pytest-timeout",
-    "ovoscope>=1.0.1a1",
+    "ovoscope>=1.11.2a1",
+    "ovos-m2v-pipeline>=0.32.0a1",
     "ovos-adapt-parser>=1.0.9",
-    "ovos-padatious>=1.0.0a1",
     "padacioso>=2.3.4a1",
 ]
 

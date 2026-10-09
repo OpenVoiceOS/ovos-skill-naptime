@@ -2,9 +2,8 @@
 invisible to the pipelines in a fresh session that never went to sleep, and
 must match once "go to sleep" has set that context.
 
-Split out of the former test_golden_utterances.py (en-US only), which is
-now test_golden_utterances_multilang.py -- these are general context-gate
-regression checks, not locale golden coverage, and stay en-US.
+These are general context-gate regression checks in en-US. The per-locale
+golden coverage is test_golden_utterances.py.
 """
 import pytest
 from ovos_bus_client.message import Message

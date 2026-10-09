@@ -1,6 +1,12 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "gå och lägg dig", "lang": "sv-SE", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "aktivera viloläge", "lang": "sv-SE", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "gå in i sovläge", "lang": "sv-SE", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vakna", "lang": "sv-SE", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "börja lyssna", "lang": "sv-SE", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "sluta sova", "lang": "sv-SE", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "gå och lägg dig nu", "lang": "sv-SE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "gå och lägg dig"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "slå på viloläget", "lang": "sv-SE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "aktivera viloläge"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "gå över till sovläge", "lang": "sv-SE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "gå in i sovläge"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hallå, vakna", "lang": "sv-SE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "vakna"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "börja lyssna igen", "lang": "sv-SE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "börja lyssna"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "sluta sova nu", "lang": "sv-SE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "sluta sova"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ta en tupplur", "lang": "sv-SE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "du kan gå och sova nu", "lang": "sv-SE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "gå in i viloläge", "lang": "sv-SE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vakna nu", "lang": "sv-SE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "lyssna på mig igen", "lang": "sv-SE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "dags att vakna", "lang": "sv-SE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
