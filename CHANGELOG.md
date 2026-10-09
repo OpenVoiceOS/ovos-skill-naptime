@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.1a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.1a2) (2026-10-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.1a1...0.12.1a2)
+
+**Merged pull requests:**
+
+- test: gate natural golden rows per locale on the m2v pipeline [\#161](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/161) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.12.1a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.1a1) (2026-10-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.0a8...0.12.1a1)
@@ -416,15 +424,10 @@
 **Merged pull requests:**
 
 - Release 0.3.12a1 [\#59](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/59) ([github-actions[bot]](https://github.com/apps/github-actions))
-- refactor: drop custom QML [\#58](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/58) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.3.11](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.11) (2024-12-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.11a1...0.3.11)
-
-**Merged pull requests:**
-
-- Release 0.3.11a1 [\#57](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/57) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.3.11a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.11a1) (2024-12-13)
 
