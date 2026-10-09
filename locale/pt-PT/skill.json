@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Soneca",
+  "description": "Põe o assistente a dormir quando não quiseres ser incomodado.",
+  "examples": [
+    "vai dormir",
+    "hora da sesta",
+    "acorda"
+  ],
+  "tags": [
+    "sesta",
+    "soneca",
+    "dormir",
+    "não incomodar"
+  ]
+}

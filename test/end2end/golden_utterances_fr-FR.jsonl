@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "allez, va te coucher", "lang": "fr-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "va te coucher"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "mets-toi en veille maintenant", "lang": "fr-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "mets-toi en veille"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "c'est l'heure de faire la sieste", "lang": "fr-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "c'est l'heure de la sieste"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "réveille-toi s'il te plaît", "lang": "fr-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "réveille-toi"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "allez réveille toi", "lang": "fr-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "réveille toi"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "va dormir un peu", "lang": "fr-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "tu peux aller te coucher", "lang": "fr-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "passe en mode veille", "lang": "fr-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "réveille-toi maintenant", "lang": "fr-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "allez, debout", "lang": "fr-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "recommence à m'écouter", "lang": "fr-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "il est l'heure de te réveiller", "lang": "fr-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

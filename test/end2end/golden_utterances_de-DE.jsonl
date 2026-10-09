@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "beginne die Ruhezeit", "lang": "de-DE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "Begin Downtime"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "jetzt ist Zeit zum Schlafen", "lang": "de-DE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "Zeit zum Schlafen"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "geh in den Ruhezustand", "lang": "de-DE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "wechsel in den Ruhezustand"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "wache endlich auf", "lang": "de-DE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "wache auf"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "wach jetzt auf", "lang": "de-DE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "wach auf"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "aufwachen, bitte", "lang": "de-DE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "aufwachen"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "geh ein bisschen schlafen", "lang": "de-DE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "mach mal ein Nickerchen", "lang": "de-DE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "du kannst jetzt schlafen gehen", "lang": "de-DE", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "wach bitte auf", "lang": "de-DE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hör mir wieder zu", "lang": "de-DE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "Zeit zum Aufwachen", "lang": "de-DE", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

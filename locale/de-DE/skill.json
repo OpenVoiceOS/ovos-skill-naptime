@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Mittagsschlaf",
+  "description": "Versetze den Assistenten in den Ruhezustand, wenn Du nicht gestört werden möchtest",
+  "examples": [
+    "Geh schlafen",
+    "Mittagsschlaf",
+    "Wach auf"
+  ],
+  "tags": [
+    "Nickerchen",
+    "Mittagsschlaf",
+    "schlafen",
+    "Bitte nicht stören"
+  ]
+}

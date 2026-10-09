@@ -1,0 +1,6 @@
+# Suprimís la sièsta per las demandas de temporizador, d'alarma e de mèdia
+# que partejan solament lo mot "dormir" amb una frasa de sièsta, per exemple
+# "met un temporizador de sòm de dètz minutas" o "jòga de musica per dormir".
+temporizador
+alarma
+jòga
