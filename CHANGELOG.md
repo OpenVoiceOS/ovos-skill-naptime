@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.2a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.2a1) (2026-10-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.1a2...0.12.2a1)
+
+**Merged pull requests:**
+
+- fix: stop the ru-RU blacklist from suppressing its own sample [\#164](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/164) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.12.1a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.1a2) (2026-10-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.1a1...0.12.1a2)
@@ -415,15 +423,10 @@
 **Merged pull requests:**
 
 - Release 0.3.12a2 [\#61](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/61) ([github-actions[bot]](https://github.com/apps/github-actions))
-- fix automations [\#60](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/60) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.3.12a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.12a1) (2024-12-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.11...0.3.12a1)
-
-**Merged pull requests:**
-
-- Release 0.3.12a1 [\#59](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/59) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.3.11](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.11) (2024-12-14)
 
