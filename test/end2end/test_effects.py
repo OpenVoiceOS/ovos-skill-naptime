@@ -15,20 +15,15 @@ from pathlib import Path
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovos_spec_tools import SpecMessage
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-naptime.openvoiceos"
 LANG = "en-US"
 LOCALE_DIR = Path(__file__).parent.parent.parent / "locale" / "en-US"
 
-_PIPELINE = [
-    "ovos-adapt-pipeline-plugin-high",
-    "ovos-padatious-pipeline-plugin-high",
-    "ovos-padacioso-pipeline-plugin-high",
-    "ovos-adapt-pipeline-plugin-medium",
-    "ovos-padacioso-pipeline-plugin-medium",
-    "ovos-adapt-pipeline-plugin-low",
-]
+NAPTIME = f"{SKILL_ID}:naptime"
+WAKE_UP = f"{SKILL_ID}:wake_up"
 
 
 def _dialog_templates(name):
@@ -58,7 +53,7 @@ def _template_matches(template, spoken):
 class TestNaptimeEffects(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID])
 
     @classmethod
     def tearDownClass(cls):
@@ -67,7 +62,7 @@ class TestNaptimeEffects(unittest.TestCase):
     def _session(self, session_id):
         session = Session(session_id)
         session.lang = LANG
-        session.pipeline = list(_PIPELINE)
+        session.pipeline = list(PIPELINE)
         session.blacklisted_intents = []
         return session
 
@@ -105,6 +100,7 @@ class TestNaptimeEffects(unittest.TestCase):
         dialog renderings with the wake word substituted in."""
         session = self._session("effects-go-to-sleep")
         messages = self._fire("go to sleep", session)
+        TALLY.assert_routed("go to sleep", NAPTIME, [m.msg_type for m in messages])
 
         sleep_msgs = [m for m in messages if m.msg_type == SpecMessage.LISTENER_SLEEP]
         self.assertEqual(
@@ -138,8 +134,10 @@ class TestNaptimeEffects(unittest.TestCase):
         that some handler ran."""
         session = self._session("effects-wake-up")
         sleep_messages = self._fire("go to sleep", session)
+        TALLY.assert_routed("go to sleep", NAPTIME, [m.msg_type for m in sleep_messages])
         session = self._updated_session(sleep_messages, session)
         messages = self._fire("wake up", session)
+        TALLY.assert_routed("wake up", WAKE_UP, [m.msg_type for m in messages])
 
         wake_msgs = [m for m in messages if m.msg_type == "recognizer_loop:wake_up"]
         self.assertEqual(
