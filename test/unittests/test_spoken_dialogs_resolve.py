@@ -86,15 +86,7 @@ def test_every_spoken_dialog_resolves_in_the_locale(lang):
         f"so the skill would speak the literal name")
 
 
-#: Locales whose file hard-codes a value the code passes as a slot. Each
-#: is a translation defect a native speaker fixes; the row goes when the
-#: file does, and a fixed file fails here (strict) until the row is gone.
-KNOWN_SLOT_HOLES = {}
-
-
-@pytest.mark.parametrize("lang", [
-    pytest.param(l, marks=pytest.mark.xfail(strict=True, reason=KNOWN_SLOT_HOLES[l]))
-    if l in KNOWN_SLOT_HOLES else l for l in LOCALES])
+@pytest.mark.parametrize("lang", LOCALES)
 def test_every_slot_the_reference_renders_is_in_the_locale_file(lang):
     holes = []
     for name, slots in SPOKEN.items():

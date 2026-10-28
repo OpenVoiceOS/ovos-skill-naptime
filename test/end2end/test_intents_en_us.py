@@ -1,13 +1,14 @@
 """End-to-end intent routing tests for the en-US locale.
 
 Each canonical utterance is fired through a real MiniCroft and asserted to
-route to the expected intent handler. The naptime intent is padatious.
+route to the expected intent handler.
 """
 import unittest
 
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-naptime.openvoiceos"
 LANG = "en-US"
@@ -42,20 +43,13 @@ _SIDE_EFFECT_MESSAGES = [
     "enclosure.mouth.text",
 ]
 
-_PIPELINE = [
-    "ovos-adapt-pipeline-plugin-high",
-    "ovos-padatious-pipeline-plugin-high",
-    "ovos-padacioso-pipeline-plugin-high",
-    "ovos-adapt-pipeline-plugin-medium",
-    "ovos-padacioso-pipeline-plugin-medium",
-    "ovos-adapt-pipeline-plugin-low",
-]
+NAPTIME = f"{SKILL_ID}:naptime"
 
 
 class TestNaptimeIntentsEnUS(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID])
 
     @classmethod
     def tearDownClass(cls):
@@ -64,9 +58,7 @@ class TestNaptimeIntentsEnUS(unittest.TestCase):
     def _session(self, session_id):
         session = Session(session_id)
         session.lang = LANG
-        session.pipeline = list(_PIPELINE)
-        # blacklisted_intents defaults to None on a fresh Session, which crashes
-        # the padacioso pipeline (NoneType membership test) - force an empty list.
+        session.pipeline = list(PIPELINE)
         session.blacklisted_intents = []
         return session
 
@@ -86,16 +78,13 @@ class TestNaptimeIntentsEnUS(unittest.TestCase):
         return [m.msg_type for m in capture.finish()]
 
     def test_go_to_sleep(self):
-        types = self._run("go to sleep")
-        self.assertIn(f"{SKILL_ID}:naptime", types)
+        TALLY.assert_routed("go to sleep", NAPTIME, self._run("go to sleep"))
 
     def test_nap_time(self):
-        types = self._run("nap time")
-        self.assertIn(f"{SKILL_ID}:naptime", types)
+        TALLY.assert_routed("nap time", NAPTIME, self._run("nap time"))
 
     def test_enter_sleep_mode(self):
-        types = self._run("enter sleep mode")
-        self.assertIn(f"{SKILL_ID}:naptime", types)
+        TALLY.assert_routed("enter sleep mode", NAPTIME, self._run("enter sleep mode"))
 
 
 if __name__ == "__main__":
