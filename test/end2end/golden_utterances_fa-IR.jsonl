@@ -1,6 +1,12 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "برو بخواب", "lang": "fa-IR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "حالت خواب را فعال کن", "lang": "fa-IR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "برو به حالت استراحت", "lang": "fa-IR", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "بیدار شو", "lang": "fa-IR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "شروع کن به گوش دادن", "lang": "fa-IR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "دیگر نخواب", "lang": "fa-IR", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "برو دیگه بخواب", "lang": "fa-IR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "برو بخواب"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "لطفا حالت خواب را فعال کن", "lang": "fa-IR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "حالت خواب را فعال کن"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "برو تو حالت استراحت", "lang": "fa-IR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "برو به حالت استراحت"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "لطفا بیدار شو", "lang": "fa-IR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "بیدار شو"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "دوباره شروع کن به گوش دادن", "lang": "fa-IR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "شروع کن به گوش دادن"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "دیگه بسه، نخواب", "lang": "fa-IR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "دیگر نخواب"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "یکم بخواب", "lang": "fa-IR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "حالا می‌تونی بخوابی", "lang": "fa-IR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "برو تو حالت خواب", "lang": "fa-IR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "دیگه بیدار شو", "lang": "fa-IR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "دوباره به من گوش بده", "lang": "fa-IR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "وقت بیدار شدنه", "lang": "fa-IR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

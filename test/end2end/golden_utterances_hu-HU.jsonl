@@ -1,6 +1,12 @@
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "menj aludni", "lang": "hu-HU", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "kapcsold be az alvó módot", "lang": "hu-HU", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "térj nyugovóra", "lang": "hu-HU", "intent_label": "naptime.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ébresztő", "lang": "hu-HU", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "kezdj el hallgatni", "lang": "hu-HU", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
-{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hagyd abba az alvást", "lang": "hu-HU", "intent_label": "wake_up.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "most menj aludni", "lang": "hu-HU", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "menj aludni"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "kérlek, kapcsold be az alvó módot", "lang": "hu-HU", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "kapcsold be az alvó módot"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ideje nyugovóra térni", "lang": "hu-HU", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "térj nyugovóra"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ébresztő, kelj fel", "lang": "hu-HU", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ébresztő"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "kezdj el újra hallgatni", "lang": "hu-HU", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "kezdj el hallgatni"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "most már hagyd abba az alvást", "lang": "hu-HU", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "hagyd abba az alvást"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "aludj egy kicsit", "lang": "hu-HU", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "most már mehetsz aludni", "lang": "hu-HU", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "kapcsolj alvó módba", "lang": "hu-HU", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ébredj fel most", "lang": "hu-HU", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "figyelj rám újra", "lang": "hu-HU", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ideje felébredni", "lang": "hu-HU", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
