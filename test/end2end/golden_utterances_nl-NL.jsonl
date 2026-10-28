@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ga nu maar slapen", "lang": "nl-NL", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ga slapen"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "zet de slaapmodus maar aan", "lang": "nl-NL", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "zet de slaapmodus aan"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ga naar de rustmodus", "lang": "nl-NL", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ga naar rustmodus"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hé, wakker worden", "lang": "nl-NL", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "wakker worden"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "begin weer met luisteren", "lang": "nl-NL", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "begin met luisteren"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "stop nu met slapen", "lang": "nl-NL", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "stop met slapen"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ga even slapen", "lang": "nl-NL", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "doe maar een dutje", "lang": "nl-NL", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "je mag nu gaan slapen", "lang": "nl-NL", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "word eens wakker", "lang": "nl-NL", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "luister weer naar me", "lang": "nl-NL", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "tijd om wakker te worden", "lang": "nl-NL", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

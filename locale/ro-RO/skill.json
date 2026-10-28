@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Somnuleț",
+  "description": "Adoarme asistentul atunci când nu vrei să fii deranjat.",
+  "examples": [
+    "Du-te la culcare",
+    "Începe un pui de somn",
+    "Trezește-te"
+  ],
+  "tags": [
+    "somnuleț",
+    "somn",
+    "nu-deranja"
+  ]
+}

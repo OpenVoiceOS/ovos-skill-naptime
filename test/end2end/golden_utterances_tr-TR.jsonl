@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hadi uyumaya git", "lang": "tr-TR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "uyumaya git"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hadi biraz kestirelim", "lang": "tr-TR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "biraz kestirelim"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "artık uyku vakti geldi", "lang": "tr-TR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "uyku vakti geldi"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "uyanır mısın lütfen", "lang": "tr-TR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "uyan"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hadi kalk", "lang": "tr-TR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "kalk"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "yeniden dinlemeye başla", "lang": "tr-TR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "dinlemeye başla"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "biraz uyu", "lang": "tr-TR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "artık uyuyabilirsin", "lang": "tr-TR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "uyku moduna geç", "lang": "tr-TR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "uyansana", "lang": "tr-TR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "beni tekrar dinle", "lang": "tr-TR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "uyanma vakti", "lang": "tr-TR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "jdi už spát", "lang": "cs-CZ", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "jdi spát"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "zapni prosím režim spánku", "lang": "cs-CZ", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "zapni režim spánku"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "přepni do klidového režimu", "lang": "cs-CZ", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "přejdi do klidového režimu"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "probuď se prosím", "lang": "cs-CZ", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "probuď se"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "zase zapni poslouchání", "lang": "cs-CZ", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "zapni poslouchání"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "přestaň už spát", "lang": "cs-CZ", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "přestaň spát"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "jdi si zdřímnout", "lang": "cs-CZ", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "můžeš jít spát", "lang": "cs-CZ", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "přepni se do režimu spánku", "lang": "cs-CZ", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vstávej", "lang": "cs-CZ", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "poslouchej mě zase", "lang": "cs-CZ", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "je čas vstávat", "lang": "cs-CZ", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

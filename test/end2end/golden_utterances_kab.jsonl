@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ṛuḥ ad teṭṭseḍ", "lang": "kab", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ṛuḥ ad ṭṭseɣ"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "bdu akud n usgunfu tura", "lang": "kab", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "bdu akud n usgunfu"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "yewweḍ-d akud n ṭṭes", "lang": "kab", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "akud n ṭṭes yewweḍ"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ekker ttxil-k", "lang": "kab", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ekker"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ɛiwed bdu tuslegt", "lang": "kab", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "bdu tuslegt"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ḥbes ṭṭes tura", "lang": "kab", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "ḥbes ṭṭes"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ṭṭes cwiṭ", "lang": "kab", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "tzemreḍ ad teṭṭseḍ tura", "lang": "kab", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "ekker tura", "lang": "kab", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "sel-iyi-d tikkelt nniḍen", "lang": "kab", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

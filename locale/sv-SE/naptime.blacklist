@@ -1,0 +1,6 @@
+# Undertrycker naptime för timer-, alarm- och mediaförfrågningar som bara
+# delar ordet "sova" med en naptime-formulering men hör till en annan skill,
+# som "ställ in en sömntimer på tio minuter" eller "spela sömnmusik".
+timer
+alarm
+spela

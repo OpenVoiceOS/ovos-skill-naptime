@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Naptime",
+  "description": "Metti l'assistente a dormire quando non vuoi essere disturbato.",
+  "examples": [
+    "Vai a dormire",
+    "Ora della nanna",
+    "Svegliati"
+  ],
+  "tags": [
+    "nanna",
+    "naptime",
+    "sonno",
+    "non-disturbare"
+  ]
+}

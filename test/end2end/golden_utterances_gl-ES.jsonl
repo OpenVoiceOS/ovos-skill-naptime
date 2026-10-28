@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "activa o modo de suspensión", "lang": "gl-ES", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "activar o modo de suspensión"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "entra no modo de repouso", "lang": "gl-ES", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "entrar no modo de repouso"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "pecha os olliños un pouco", "lang": "gl-ES", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "pechar os olliños"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "esperta, por favor", "lang": "gl-ES", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "esperta"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "acorda xa", "lang": "gl-ES", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "acorda"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vai durmir un pouco", "lang": "gl-ES", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "bota unha sesta", "lang": "gl-ES", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "xa podes ir durmir", "lang": "gl-ES", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "esperta xa", "lang": "gl-ES", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "xa podes espertar", "lang": "gl-ES", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "volve escoitarme", "lang": "gl-ES", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "é hora de espertar", "lang": "gl-ES", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

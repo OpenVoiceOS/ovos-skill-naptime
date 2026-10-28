@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Naptime",
+  "description": "Læg assistenten til at sove, når du ikke vil forstyrres.",
+  "examples": [
+    "Gå i seng",
+    "Tid til en lur",
+    "Vågn op"
+  ],
+  "tags": [
+    "lur",
+    "naptime",
+    "sove",
+    "forstyr-ikke"
+  ]
+}

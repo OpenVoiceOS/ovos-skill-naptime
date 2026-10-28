@@ -1,21 +1,20 @@
 # <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/bed.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Naptime
 
-Put the assistant to sleep when you don't want to be disturbed.
+Put the assistant to sleep when you do not want it to listen.
 
 ## About
 
-Tell the assistant to sleep when you don't want to be disturbed in any way.
-This stops all calls to Speech to Text system, guaranteeing your voice won't be sent anywhere on an accidental activation.
+Naptime tells the assistant to stop listening for commands. This stops all calls to the speech-to-text system, so your voice cannot be sent anywhere by an accidental activation.
 
-When sleeping, the assistant will only listen locally for the wake word `Hey Mycroft, wake up`. Otherwise the system will be totally silent and won't bother you.
+While sleeping, the assistant only listens locally for the wake word "Hey Mycroft, wake up". Otherwise the system stays silent.
 
-On a Mark 1 device this also dims the eyes.
+On a Mark 1 device, sleep mode also dims the eyes.
 
-Skill can mute the audio as well when entering into sleep mode if required.
+The skill can also mute the audio when it enters sleep mode, if you configure it to do so.
 
 ## Configuration
 
-The skill utilizes the `~/.config/mycroft/skills/ovos-skill-naptime.openvoiceos/settings.json` file which allows you to configure this skill.
+The skill uses the `~/.config/mycroft/skills/ovos-skill-naptime.openvoiceos/settings.json` file. Set `mute` to `true` to mute the audio when the assistant goes to sleep.
 
 ```json
 {
@@ -28,6 +27,11 @@ The skill utilizes the `~/.config/mycroft/skills/ovos-skill-naptime.openvoiceos/
 - "Go to sleep"
 - "Nap time"
 - "Wake up"
+
+## Related projects
+
+- [OpenVoiceOS/ovos-core](https://github.com/OpenVoiceOS/ovos-core) — the assistant core that this skill plugs into.
+- [OpenVoiceOS/ovos-workshop](https://github.com/OpenVoiceOS/ovos-workshop) — the skill framework this skill is built on.
 
 ## Credits
 
