@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.3a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.3a1) (2026-11-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.2a3...0.12.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): drop dead vocabulary files [\#163](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/163) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.12.2a3](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.12.2a3) (2026-10-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.12.2a2...0.12.2a3)
@@ -399,10 +407,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.13a2...0.3.13)
 
-**Merged pull requests:**
-
-- Release 0.3.13a2 [\#66](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/66) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.3.13a2](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.13a2) (2025-02-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.13a1...0.3.13a2)
@@ -410,10 +414,6 @@
 ## [0.3.13a1](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.13a1) (2025-02-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-naptime/compare/0.3.12...0.3.13a1)
-
-**Merged pull requests:**
-
-- Release 0.3.13a1 [\#65](https://github.com/OpenVoiceOS/ovos-skill-naptime/pull/65) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.3.12](https://github.com/OpenVoiceOS/ovos-skill-naptime/tree/0.3.12) (2025-02-21)
 
