@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "aktivér lige dvaletilstanden", "lang": "da-DK", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "aktivere dvaletilstand"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "lad os holde siesta", "lang": "da-DK", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "indlede siesta"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "så er det tid til en lur", "lang": "da-DK", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "tid til en lur"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vågn så op", "lang": "da-DK", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "vågn op"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "begynd at lytte igen", "lang": "da-DK", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "begynd at lytte"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "hold op med at sove", "lang": "da-DK", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "stop med at sove"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "tag dig en lur", "lang": "da-DK", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "du kan godt gå i dvale nu", "lang": "da-DK", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "skift til dvaletilstand", "lang": "da-DK", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vågn op nu", "lang": "da-DK", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "lyt til mig igen", "lang": "da-DK", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "det er tid til at vågne", "lang": "da-DK", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

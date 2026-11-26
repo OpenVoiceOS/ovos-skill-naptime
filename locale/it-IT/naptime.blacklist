@@ -1,0 +1,7 @@
+# Sopprime naptime per richieste di timer, sveglia e media che condividono
+# solo la parola "dormire" con una frase di naptime ma appartengono a un altro
+# skill, come "imposta un timer per dormire di dieci minuti" o "riproduci
+# musica per dormire".
+timer
+sveglia
+riproduci

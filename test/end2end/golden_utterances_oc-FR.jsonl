@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "anem dormir ara", "lang": "oc-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "anem dormir"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "passa en mòde adormit", "lang": "oc-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "dintra en mòde adormit"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "passa en ibernacion", "lang": "oc-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "vai en ibernacion"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "desvelha-te, se te plai", "lang": "oc-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "desvelha-te"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "revelha-te ara", "lang": "oc-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "revelha-te"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "quita de dormir ara", "lang": "oc-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true, "rewritten_from": "quita de dormir"}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "vai dormir un pauc", "lang": "oc-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "fai una sièsta", "lang": "oc-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "pòdes anar dormir", "lang": "oc-FR", "intent_label": "naptime.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "desvelha-te ara", "lang": "oc-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "torna m'escotar", "lang": "oc-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-naptime.openvoiceos", "utterance": "es ora de se desvelhar", "lang": "oc-FR", "intent_label": "wake_up.intent", "needs_manual": true, "machine_generated": true}

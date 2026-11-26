@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-naptime.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-naptime",
+  "name": "Migdiada",
+  "description": "Poseu a dormir l'assistent quan vulgueu que no us molestin.",
+  "examples": [
+    "Anem a dormir",
+    "Hora de la migdiada",
+    "Desperta"
+  ],
+  "tags": [
+    "migdiada",
+    "silenci",
+    "dormir",
+    "no-molesteu"
+  ]
+}

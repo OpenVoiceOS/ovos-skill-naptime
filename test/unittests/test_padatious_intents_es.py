@@ -17,7 +17,7 @@ def read_samples(path):
 class TestPadaos(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        from padaos import IntentContainer
+        from ovos_padatious.padaos import IntentContainer
         res_folder = join(dirname(dirname(dirname(__file__))), "locale", "es-es")
         engine = IntentContainer()
         for root, folders, files in os.walk(res_folder):
@@ -43,7 +43,7 @@ class TestPadaos(unittest.TestCase):
 class TestPadatious(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        from padatious import IntentContainer
+        from ovos_padatious import IntentContainer
         res_folder = join(dirname(dirname(dirname(__file__))), "locale", "es-es")
         engine = IntentContainer(cache_dir="/tmp/padatious_cache")
         for root, folders, files in os.walk(res_folder):
